@@ -1,0 +1,122 @@
+/* Media queries for header section
+=======================================*/
+/* For smaller devices */
+@media screen and (max-width: 576px) {
+  nav {
+    flex-direction: column;
+  }
+  ul {
+    flex-direction: column-reverse;
+    text-align: left;
+  }
+  ul li a {
+    text-align: left;
+  }
+  header {
+    padding: 0.5rem;
+  }
+  .banner-area {
+    flex-direction: column-reverse;
+  }
+  .banner-image-box {
+    background-image: none;
+  }
+  .section-description {
+    width: 100%;
+  }
+}
+
+/* For medium devices */
+@media screen and (min-width: 576px) and (max-width: 892px) {
+  nav {
+    flex-direction: column;
+  }
+  ul {
+    flex-direction: column-reverse;
+    text-align: left;
+  }
+  ul li a {
+    text-align: left;
+  }
+  header {
+    padding: 0.5rem;
+  }
+  .banner-area {
+    flex-direction: column-reverse;
+  }
+  .banner-image-box {
+    background-image: none;
+  }
+  .section-description {
+    width: 100%;
+  }
+}
+
+/* Media queries for sponsors section
+  =======================================*/
+/* For smaller devices */
+@media screen and (max-width: 576px) {
+  .sponsors {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0.5rem;
+    margin: 2rem 0rem;
+    border: none;
+  }
+  .sponsors-image {
+    width: 100%;
+  }
+}
+/* For medium devices */
+@media screen and (min-width: 577px) and (max-width: 892px) {
+  .sponsors {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+    padding: 0.5rem;
+    margin: 0rem;
+    border: none;
+  }
+  .sponsors-image {
+    width: 100%;
+    height: auto;
+  }
+}
+
+/* Media queries for popular collection section
+  ===============================================*/
+/* For smaller devices */
+@media screen and (max-width: 576px) {
+  .popular-collections {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 0.5rem;
+  }
+  .see-more {
+    padding: 0.5rem;
+  }
+}
+/* For medium devices */
+@media screen and (min-width: 577px) and (max-width: 892px) {
+  .popular-collections {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 0.5rem;
+  }
+  .see-more {
+    padding: 0.5rem;
+  }
+}
+
+/* Media queries for popular collection section
+  ===============================================*/
+/* For smaller devices */
+@media screen and (max-width: 576px) {
+  .featured-products {
+    flex-direction: column;
+    padding: 0.5rem;
+  }
+}
+/* For medium devices */
+@media screen and (min-width: 577px) and (max-width: 892px) {
+  .featured-products {
+    flex-direction: column;
+    padding: 0.5rem;
+  }
+}

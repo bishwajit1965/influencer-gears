@@ -1,0 +1,197 @@
+/* Google font Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+
+:root {
+  --primary-color: #e02c6d;
+  --btn-hover-color: #b80245;
+  --text-gray: #888;
+  --dark-text: #3a3a3a;
+  --text-white: #fff;
+}
+
+/* Header section styles */
+header {
+  padding: 3rem 7rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-brand-title {
+  color: var(--dark-text);
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+nav > ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+nav > ul > li > a {
+  text-decoration: none;
+  padding: 0rem 1rem;
+  color: var(--dark-text);
+}
+.banner-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+  margin-top: 5rem;
+}
+.banner-description-box {
+  width: 100%;
+}
+.banner-section-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+.section-description {
+  margin: 1rem 0rem;
+  width: 70%;
+}
+.banner-image-box {
+  background-image: url("../images/Circle\ design.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: auto;
+}
+.btn-primary {
+  background-color: var(--primary-color);
+  border: none;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: var(--btn-hover-color);
+  border: none;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+.banner-main-camera {
+  width: 100%;
+  height: auto;
+  background-position: center;
+  background-size: cover;
+}
+
+/* Sponsors section styles */
+.sponsors {
+  margin: 5rem 10rem;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+  border: 0.1rem solid #ddd;
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+}
+.sponsors-image {
+  width: 100%;
+  height: auto;
+}
+
+/* Popular collections sections begins */
+.popular-collections {
+  padding: 2rem 12.25rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+  gap: 2rem;
+}
+.collection-card {
+  background-color: #fff;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  box-shadow: 1px 2px 3px #ddd;
+}
+.card-image {
+  width: 100%;
+  height: auto;
+}
+.center {
+  text-align: center;
+}
+.section-title {
+  font-size: 1.9rem;
+  font-weight: 800;
+}
+.card-title {
+  font-weight: 700;
+  margin: 0.5rem 0rem;
+}
+
+.star-color {
+  color: #f5af02;
+}
+.price {
+  margin: 0.5rem 0rem;
+}
+.card-description {
+  font-size: 0.8rem;
+  margin: 0.8rem 0rem;
+}
+.see-more {
+  text-align: right;
+  padding: 0rem 12.25rem;
+  margin-bottom: 2rem;
+  color: var(--primary-color);
+}
+.arrow-color {
+  color: var(--primary-color);
+}
+
+/* Featured products section styles */
+.featured-products {
+  padding: 2rem 10.25rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+.featured-image-box {
+  width: 100%;
+}
+.featured-image {
+  width: 100%;
+  height: auto;
+}
+.description-text {
+  font-size: 1rem;
+  margin: 1rem 0rem;
+}
+.text-white {
+  color: #fff;
+}
+
+/* Footer styles */
+footer {
+  background-color: #0a0826;
+  padding: 3rem 0rem;
+  text-align: center;
+  color: #fff;
+}
+.social-btn {
+  padding: 0rem 1rem;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
