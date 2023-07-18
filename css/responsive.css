@@ -64,6 +64,7 @@
   }
   .sponsors-image {
     width: 100%;
+    object-fit: cover;
   }
 }
 /* For medium devices */
