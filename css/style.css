@@ -159,6 +159,10 @@ nav > ul > li > a {
 .arrow-color {
   color: var(--primary-color);
 }
+.see-more-bold-text {
+  /* font-size: 1.5rem; */
+  font-weight: 700;
+}
 
 /* Featured products section styles */
 .featured-products {
