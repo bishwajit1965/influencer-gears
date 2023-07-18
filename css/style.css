@@ -12,6 +12,8 @@
 
 :root {
   --primary-color: #e02c6d;
+  --secondary-color: #0099cd;
+  --secondary-hover-color: #036484;
   --btn-hover-color: #b80245;
   --text-gray: #888;
   --dark-text: #3a3a3a;
@@ -80,6 +82,23 @@ nav > ul > li > a {
 
 .btn-primary:hover {
   background-color: var(--btn-hover-color);
+  border: none;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.btn-secondary {
+  background-color: var(--secondary-color);
+  border: none;
+  padding: 0.5rem 1rem;
+  color: #fff;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+.btn-secondary:hover {
+  background-color: var(--secondary-hover-color);
   border: none;
   padding: 0.5rem 1rem;
   color: #fff;
@@ -160,7 +179,6 @@ nav > ul > li > a {
   color: var(--primary-color);
 }
 .see-more-bold-text {
-  /* font-size: 1.5rem; */
   font-weight: 700;
 }
 
